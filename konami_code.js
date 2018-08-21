@@ -12,13 +12,14 @@ function init() {
    if (key === code[index]) {
      index++;
      console.log(index);
-   }
-   
-   if (index === code.length) {
-     alert("Hurray!");
-     console.log(index);
-     index = 0;
      
+   
+     if (index === code.length) {
+       alert("Hurray!");
+       console.log(index);
+       index = 0;
+       
+     }
    }
     else {
       index = 0;
