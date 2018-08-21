@@ -5,9 +5,7 @@ function init() {
 
  let claire = document.body.addEventListener("keydown", function(e){
     (e.which);
-  }
-  const key = parseInt(e.detail)
-  )
+  })
   
 
 
