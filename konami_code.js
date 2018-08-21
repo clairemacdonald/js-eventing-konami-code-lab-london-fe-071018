@@ -8,19 +8,21 @@ function init() {
    (e.which); 
   // const key =e.which;
    const key = parseInt(e.detail || e.which);
-   
+   console.log(key);
    if (key === code[index]) {
      index++;
-     
+     console.log(index);
    }
    
    if (index === code.length) {
      alert("Hurray!");
-     
+     console.log(index);
      index = 0;
+     
    }
     else {
       index = 0;
+      console.log(index);
     }
   
   });
