@@ -5,7 +5,14 @@ function init() {
 
   document.body.addEventListener("keydown", function(e){
     console.log(e.which);
+    
+    input.addEventListener('keydown', e => {
+  if (e.which === 71) {
+    return e.preventDefault()
+  }
+})
   })
+
 }
 
 init();
